@@ -94,3 +94,70 @@ h2
   box-shadow: inset 6px 6px 12px rgba(0,0,0,.08),
               inset -6px -6px 12px rgba(255,255,255,1);    
 }
+@media only screen and (max-width: 600px) {
+section
+{
+  min-height: 100vh;
+  max-width: 100%;
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+  background: #eaeaea;
+}  
+  h2
+  {
+    font-size: 2.5em;
+    color: #eaeaea;
+    text-shadow: 6px 6px 12px rgba(0,0,0,.08),
+                -6px -6px 12px rgba(255,255,255,1);
+  }
+  .box1
+  {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background:  #eaeaea;
+  border-radius: 50%;
+  box-shadow: 6px 6px 12px rgba(0,0,0,.08),
+              -6px -6px 12px rgba(255,255,255,1);  
+  }
+
+.box2
+{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  background:  #eaeaea;
+  box-shadow: 6px 6px 12px rgba(0,0,0,.08),
+              -6px -6px 12px rgba(255,255,255,1);  
+}
+  .box3
+  {
+  display: none;
+  }
+  .box4
+  {
+  display: none;
+  }
+  .box4:before
+  {
+  display: none; 
+  }  
+     /*
+  .box3:before
+  {
+  display: none; 
+  }
+  .box4
+  {
+  display: none;
+  }
+  .box4:before
+  {
+  display: none; 
+  } */
+}
